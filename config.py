@@ -2,22 +2,22 @@ import os, time
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "11421014")
+    API_HASH = os.environ.get("API_HASH", "9ac3fd02dccbde3435d6b58a5e430bcb")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6926224336:AAHW3vxgcyx4_DWz4Qc9IYTFQQD7W_PSqiU") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","cluster0")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://RIFAT12:RIFAT12R@cluster0.fzjun0h.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = int(os.environ.get("ADMIN", ""))
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/80202509e355ed9d633f2.jpg")
+    ADMIN = int(os.environ.get("ADMIN", "5076258969"))
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001813560851"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
