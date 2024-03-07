@@ -7,9 +7,9 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6926224336:AAHW3vxgcyx4_DWz4Qc9IYTFQQD7W_PSqiU") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","cluster0")     
-    DB_URL = os.environ.get("DB_URL","mongodb+srv://RIFAT12:RIFAT12R@cluster0.fzjun0h.mongodb.net/?retryWrites=true&w=majority")
- 
+    DB_NAME = os.environ.get("DB_NAME","Rifat")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://Rifat:0AqmhHclrewGbJDL@cluster0.4uxwur6.mongodb.net/?retryWrites=true&w=majority")
+
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/80202509e355ed9d633f2.jpg")
